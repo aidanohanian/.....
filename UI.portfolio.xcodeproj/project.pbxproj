@@ -14,6 +14,11 @@
 		B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA3237089F600244149 /* Assets.xcassets */; };
 		B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */; };
 		B0A7DAAA237089F600244149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DAA9237089F600244149 /* main.m */; };
+		B0F49F8023732AA70070E89E /* File.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F49F7F23732AA70070E89E /* File.storyboard */; };
+		B0F49F8223732ABA0070E89E /* Clock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F49F8123732ABA0070E89E /* Clock.storyboard */; };
+		B0F49F8423732ADA0070E89E /* Pretty paterns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F49F8323732ADA0070E89E /* Pretty paterns.storyboard */; };
+		B0F49F8623732AEE0070E89E /* pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F49F8523732AEE0070E89E /* pythagorean.storyboard */; };
+		B0F49F8823732B010070E89E /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F49F8723732B010070E89E /* Calculator.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		B0A7DAA6237089F600244149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7DAA8237089F600244149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A7DAA9237089F600244149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0F49F7F23732AA70070E89E /* File.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = File.storyboard; sourceTree = "<group>"; };
+		B0F49F8123732ABA0070E89E /* Clock.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clock.storyboard; sourceTree = "<group>"; };
+		B0F49F8323732ADA0070E89E /* Pretty paterns.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Pretty paterns.storyboard"; sourceTree = "<group>"; };
+		B0F49F8523732AEE0070E89E /* pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pythagorean.storyboard; sourceTree = "<group>"; };
+		B0F49F8723732B010070E89E /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,11 @@
 				B0A7DAA0237089F300244149 /* Main.storyboard */,
 				B0A7DAA3237089F600244149 /* Assets.xcassets */,
 				B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */,
+				B0F49F7F23732AA70070E89E /* File.storyboard */,
+				B0F49F8123732ABA0070E89E /* Clock.storyboard */,
+				B0F49F8323732ADA0070E89E /* Pretty paterns.storyboard */,
+				B0F49F8523732AEE0070E89E /* pythagorean.storyboard */,
+				B0F49F8723732B010070E89E /* Calculator.storyboard */,
 				B0A7DAA8237089F600244149 /* Info.plist */,
 				B0A7DAA9237089F600244149 /* main.m */,
 			);
@@ -134,8 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */,
+				B0F49F8423732ADA0070E89E /* Pretty paterns.storyboard in Resources */,
 				B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */,
+				B0F49F8023732AA70070E89E /* File.storyboard in Resources */,
 				B0A7DAA2237089F300244149 /* Main.storyboard in Resources */,
+				B0F49F8623732AEE0070E89E /* pythagorean.storyboard in Resources */,
+				B0F49F8823732B010070E89E /* Calculator.storyboard in Resources */,
+				B0F49F8223732ABA0070E89E /* Clock.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
