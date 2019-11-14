@@ -7,8 +7,8 @@
 //
 
 
-#ifndef portfolio_h
-#define portfolio_h
+#ifndef control_h
+#define control_h
 // Classic C style defines for Operator control
 #define BUFFER_SIZE 80
 #define FILE_BUFFER_SIZE 1024
@@ -47,3 +47,4 @@ int histogram(char *message);
 int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
 double hyptoneuse (double side1, double
+#endif
