@@ -16,47 +16,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tf-RL-D87">
-                                <rect key="frame" x="237" y="243" width="126" height="40"/>
+                                <rect key="frame" x="144" y="164" width="126" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Pythagorean">
                                     <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8xc-pA-9YI" kind="show" id="J9f-G6-dig"/>
+                                    <segue destination="vsc-Ll-1hr" kind="show" id="Fj2-HD-xzK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynN-XZ-hpk">
-                                <rect key="frame" x="123" y="408" width="139" height="40"/>
+                                <rect key="frame" x="156" y="396" width="103" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Pretty Paterns">
+                                <state key="normal" title="Histogram">
                                     <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ACh-0l-n74" kind="show" id="7Fj-Y7-A9o"/>
+                                    <segue destination="LCJ-gz-xw1" kind="show" id="uxB-tp-URD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1L-3a-JpE">
-                                <rect key="frame" x="237" y="331" width="35" height="40"/>
+                                <rect key="frame" x="178" y="478" width="58" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="File">
+                                <state key="normal" title="FileIO">
                                     <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gek-B2-Eoa" kind="show" id="bWJ-nj-Bg2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uS-hN-Eqx">
-                                <rect key="frame" x="92" y="331" width="58" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Clock">
-                                    <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="5z6-Uo-Fdw" kind="show" id="iYE-dm-Wf9"/>
+                                    <segue destination="uoz-lc-JNB" kind="show" id="Z2D-gH-Okp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selection Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNf-9f-OvU">
@@ -67,14 +56,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybe-aN-clW">
-                                <rect key="frame" x="48" y="243" width="102" height="40"/>
+                                <rect key="frame" x="157" y="313" width="102" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Calculator">
                                     <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kUC-Kc-Cdh" kind="show" id="So9-5F-ISu"/>
+                                    <segue destination="LFX-Rs-utw" kind="show" id="SxG-UE-P8e"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aidan Ohanian's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apw-RJ-116">
@@ -84,6 +73,17 @@
                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uS-hN-Eqx">
+                                <rect key="frame" x="151" y="236" width="115" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="AlgoSearch">
+                                    <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SpY-S3-oGd" kind="show" id="dxA-mV-cfT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -93,55 +93,55 @@
             </objects>
             <point key="canvasLocation" x="132" y="137"/>
         </scene>
+        <!--FileIO-->
+        <scene sceneID="tkl-aF-DkR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FileIO" id="uoz-lc-JNB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="YIb-tX-Poc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2x-qh-ag8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647" y="185"/>
+        </scene>
+        <!--AlgoSearch-->
+        <scene sceneID="EV0-Yu-dyD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AlgoSearch" id="SpY-S3-oGd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PSg-aE-cCt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="axo-9p-CCx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672" y="155"/>
+        </scene>
+        <!--Histogram-->
+        <scene sceneID="rXi-aI-P2n">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Histogram" id="LCJ-gz-xw1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="IxM-tM-vr3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5JB-Tx-LuL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="731" y="42"/>
+        </scene>
         <!--Calculator-->
-        <scene sceneID="6qd-am-3rb">
+        <scene sceneID="kiM-k6-Iv4">
             <objects>
-                <viewControllerPlaceholder storyboardName="Calculator" id="kUC-Kc-Cdh" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="wNS-T7-X8R"/>
+                <viewControllerPlaceholder storyboardName="Calculator" id="LFX-Rs-utw" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Gkv-Xu-m7N"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1go-r2-vMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x7G-cc-Dm1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="746" y="129"/>
+            <point key="canvasLocation" x="673" y="88"/>
         </scene>
-        <!--Clock-->
-        <scene sceneID="tQJ-oD-a41">
+        <!--Pythagoras-->
+        <scene sceneID="tZC-am-15E">
             <objects>
-                <viewControllerPlaceholder storyboardName="Clock" id="5z6-Uo-Fdw" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="qh7-qp-QAv"/>
+                <viewControllerPlaceholder storyboardIdentifier="Pythagoras" storyboardName="Pythagoras" id="vsc-Ll-1hr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="AwP-Oe-9WY"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JLY-d2-2Ov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nh-el-Ehd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="-70"/>
-        </scene>
-        <!--File-->
-        <scene sceneID="1UV-ij-99u">
-            <objects>
-                <viewControllerPlaceholder storyboardName="File" id="gek-B2-Eoa" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="raf-PW-miI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lcr-9r-8aE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="678" y="-42"/>
-        </scene>
-        <!--Pretty paterns-->
-        <scene sceneID="6Ob-G5-u1H">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Pretty paterns" id="ACh-0l-n74" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="iVQ-Fl-q9o"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XEK-Lq-zZP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="771" y="27"/>
-        </scene>
-        <!--pythagorean-->
-        <scene sceneID="kV6-5C-eFI">
-            <objects>
-                <viewControllerPlaceholder storyboardName="pythagorean" id="8xc-pA-9YI" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="tJP-2c-0W9"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="n6z-hu-tbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="747" y="3"/>
+            <point key="canvasLocation" x="686" y="123"/>
         </scene>
     </scenes>
 </document>
