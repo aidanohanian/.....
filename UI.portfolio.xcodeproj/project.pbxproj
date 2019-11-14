@@ -22,11 +22,11 @@
 		B0D5E472237DC03900CBC793 /* programming.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46C237DC03900CBC793 /* programming.c */; };
 		B0D5E473237DC03900CBC793 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46D237DC03900CBC793 /* calc.c */; };
 		B0D5E474237DC03900CBC793 /* fileparse.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46E237DC03900CBC793 /* fileparse.c */; };
-		B0D5E48E237DD09C00CBC793 /* FileIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E485237DD09B00CBC793 /* FileIOController.m */; };
-		B0D5E48F237DD09C00CBC793 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E487237DD09B00CBC793 /* CalcController.m */; };
-		B0D5E490237DD09C00CBC793 /* PythController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E488237DD09B00CBC793 /* PythController.m */; };
-		B0D5E491237DD09C00CBC793 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E489237DD09C00CBC793 /* AlgoController.m */; };
-		B0D5E492237DD09C00CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E48A237DD09C00CBC793 /* HistoController.m */; };
+		B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E495237DD25200CBC793 /* HistoController.m */; };
+		B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E497237DD25300CBC793 /* AlgoController.m */; };
+		B0D5E4A1237DD25300CBC793 /* PythController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49A237DD25300CBC793 /* PythController.m */; };
+		B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49C237DD25300CBC793 /* CalcController.m */; };
+		B0D5E4A3237DD25300CBC793 /* FileIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49D237DD25300CBC793 /* FileIOController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,16 +50,16 @@
 		B0D5E46C237DC03900CBC793 /* programming.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = programming.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/programming.c"; sourceTree = "<group>"; };
 		B0D5E46D237DC03900CBC793 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calc.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/calc.c"; sourceTree = "<group>"; };
 		B0D5E46E237DC03900CBC793 /* fileparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fileparse.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/fileparse.c"; sourceTree = "<group>"; };
-		B0D5E484237DD09B00CBC793 /* AlgoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlgoController.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/AlgoController.h"; sourceTree = "<group>"; };
-		B0D5E485237DD09B00CBC793 /* FileIOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileIOController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/FileIOController.m"; sourceTree = "<group>"; };
-		B0D5E486237DD09B00CBC793 /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcController.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/CalcController.h"; sourceTree = "<group>"; };
-		B0D5E487237DD09B00CBC793 /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/CalcController.m"; sourceTree = "<group>"; };
-		B0D5E488237DD09B00CBC793 /* PythController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PythController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/PythController.m"; sourceTree = "<group>"; };
-		B0D5E489237DD09C00CBC793 /* AlgoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlgoController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/AlgoController.m"; sourceTree = "<group>"; };
-		B0D5E48A237DD09C00CBC793 /* HistoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/HistoController.m"; sourceTree = "<group>"; };
-		B0D5E48B237DD09C00CBC793 /* HistoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoController.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/HistoController.h"; sourceTree = "<group>"; };
-		B0D5E48C237DD09C00CBC793 /* PythController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PythController.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/PythController.h"; sourceTree = "<group>"; };
-		B0D5E48D237DD09C00CBC793 /* FileIOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileIOController.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/FileIOController.h"; sourceTree = "<group>"; };
+		B0D5E495237DD25200CBC793 /* HistoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
+		B0D5E496237DD25200CBC793 /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
+		B0D5E497237DD25300CBC793 /* AlgoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgoController.m; sourceTree = "<group>"; };
+		B0D5E498237DD25300CBC793 /* AlgoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoController.h; sourceTree = "<group>"; };
+		B0D5E499237DD25300CBC793 /* HistoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoController.h; sourceTree = "<group>"; };
+		B0D5E49A237DD25300CBC793 /* PythController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PythController.m; sourceTree = "<group>"; };
+		B0D5E49B237DD25300CBC793 /* PythController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PythController.h; sourceTree = "<group>"; };
+		B0D5E49C237DD25300CBC793 /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/CalcController.m"; sourceTree = "<group>"; };
+		B0D5E49D237DD25300CBC793 /* FileIOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileIOController.m; sourceTree = "<group>"; };
+		B0D5E49E237DD25300CBC793 /* FileIOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIOController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +106,16 @@
 		B068233B237B2C46007CD8D4 /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				B0D5E484237DD09B00CBC793 /* AlgoController.h */,
-				B0D5E489237DD09C00CBC793 /* AlgoController.m */,
-				B0D5E486237DD09B00CBC793 /* CalcController.h */,
-				B0D5E487237DD09B00CBC793 /* CalcController.m */,
-				B0D5E48D237DD09C00CBC793 /* FileIOController.h */,
-				B0D5E485237DD09B00CBC793 /* FileIOController.m */,
-				B0D5E48B237DD09C00CBC793 /* HistoController.h */,
-				B0D5E48A237DD09C00CBC793 /* HistoController.m */,
-				B0D5E48C237DD09C00CBC793 /* PythController.h */,
-				B0D5E488237DD09B00CBC793 /* PythController.m */,
+				B0D5E498237DD25300CBC793 /* AlgoController.h */,
+				B0D5E497237DD25300CBC793 /* AlgoController.m */,
+				B0D5E496237DD25200CBC793 /* CalcController.h */,
+				B0D5E49C237DD25300CBC793 /* CalcController.m */,
+				B0D5E49E237DD25300CBC793 /* FileIOController.h */,
+				B0D5E49D237DD25300CBC793 /* FileIOController.m */,
+				B0D5E499237DD25300CBC793 /* HistoController.h */,
+				B0D5E495237DD25200CBC793 /* HistoController.m */,
+				B0D5E49B237DD25300CBC793 /* PythController.h */,
+				B0D5E49A237DD25300CBC793 /* PythController.m */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -233,17 +233,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D5E473237DC03900CBC793 /* calc.c in Sources */,
-				B0D5E491237DD09C00CBC793 /* AlgoController.m in Sources */,
-				B0D5E48E237DD09C00CBC793 /* FileIOController.m in Sources */,
 				B0A7DA99237089F300244149 /* AppDelegate.m in Sources */,
 				B0D5E472237DC03900CBC793 /* programming.c in Sources */,
 				B0A7DAAA237089F600244149 /* main.m in Sources */,
 				B0D5E470237DC03900CBC793 /* histogram.c in Sources */,
-				B0D5E492237DD09C00CBC793 /* HistoController.m in Sources */,
-				B0D5E48F237DD09C00CBC793 /* CalcController.m in Sources */,
 				B0A7DA9C237089F300244149 /* SceneDelegate.m in Sources */,
-				B0D5E490237DD09C00CBC793 /* PythController.m in Sources */,
 				B0D5E474237DC03900CBC793 /* fileparse.c in Sources */,
+				B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */,
+				B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */,
+				B0D5E4A3237DD25300CBC793 /* FileIOController.m in Sources */,
+				B0D5E4A1237DD25300CBC793 /* PythController.m in Sources */,
+				B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
