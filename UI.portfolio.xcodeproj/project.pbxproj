@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B09F78C123996E60009F389A /* revereseword.c in Sources */ = {isa = PBXBuildFile; fileRef = B09F78C023996E60009F389A /* revereseword.c */; };
 		B0A7DA99237089F300244149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DA98237089F300244149 /* AppDelegate.m */; };
 		B0A7DA9C237089F300244149 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DA9B237089F300244149 /* SceneDelegate.m */; };
 		B0A7DAA2237089F300244149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA0237089F300244149 /* Main.storyboard */; };
@@ -18,19 +19,20 @@
 		B0D5E458237DBFDC00CBC793 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D5E453237DBFDB00CBC793 /* Calculator.storyboard */; };
 		B0D5E459237DBFDC00CBC793 /* Histogram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D5E454237DBFDB00CBC793 /* Histogram.storyboard */; };
 		B0D5E45A237DBFDC00CBC793 /* FileIO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D5E455237DBFDB00CBC793 /* FileIO.storyboard */; };
-		B0D5E470237DC03900CBC793 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46A237DC03900CBC793 /* histogram.c */; };
-		B0D5E472237DC03900CBC793 /* programming.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46C237DC03900CBC793 /* programming.c */; };
-		B0D5E473237DC03900CBC793 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46D237DC03900CBC793 /* calc.c */; };
-		B0D5E474237DC03900CBC793 /* fileparse.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E46E237DC03900CBC793 /* fileparse.c */; };
 		B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E495237DD25200CBC793 /* HistoController.m */; };
 		B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E497237DD25300CBC793 /* AlgoController.m */; };
 		B0D5E4A1237DD25300CBC793 /* PythController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49A237DD25300CBC793 /* PythController.m */; };
 		B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49C237DD25300CBC793 /* CalcController.m */; };
 		B0D5E4A3237DD25300CBC793 /* FileIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49D237DD25300CBC793 /* FileIOController.m */; };
+		B0D5E4AA237DD35400CBC793 /* programming.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A4237DD35400CBC793 /* programming.c */; };
+		B0D5E4AB237DD35400CBC793 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A5237DD35400CBC793 /* calc.c */; };
+		B0D5E4AD237DD35400CBC793 /* fileparse.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A8237DD35400CBC793 /* fileparse.c */; };
+		B0D5E4AE237DD35400CBC793 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A9237DD35400CBC793 /* histogram.c */; };
+		B0E2E769239AB95C00BBBFAD /* reverseword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B068232F237B2623007CD8D4 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		B09F78C023996E60009F389A /* revereseword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revereseword.c; sourceTree = "<group>"; };
 		B0A7DA94237089F300244149 /* UI.portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI.portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7DA97237089F300244149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0A7DA98237089F300244149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,10 +48,6 @@
 		B0D5E453237DBFDB00CBC793 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calculator.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Calculator.storyboard"; sourceTree = "<group>"; };
 		B0D5E454237DBFDB00CBC793 /* Histogram.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Histogram.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Histogram.storyboard"; sourceTree = "<group>"; };
 		B0D5E455237DBFDB00CBC793 /* FileIO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FileIO.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/FileIO.storyboard"; sourceTree = "<group>"; };
-		B0D5E46A237DC03900CBC793 /* histogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = histogram.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/histogram.c"; sourceTree = "<group>"; };
-		B0D5E46C237DC03900CBC793 /* programming.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = programming.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/programming.c"; sourceTree = "<group>"; };
-		B0D5E46D237DC03900CBC793 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calc.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/calc.c"; sourceTree = "<group>"; };
-		B0D5E46E237DC03900CBC793 /* fileparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fileparse.c; path = "../../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Control/fileparse.c"; sourceTree = "<group>"; };
 		B0D5E495237DD25200CBC793 /* HistoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
 		B0D5E496237DD25200CBC793 /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
 		B0D5E497237DD25300CBC793 /* AlgoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgoController.m; sourceTree = "<group>"; };
@@ -60,6 +58,12 @@
 		B0D5E49C237DD25300CBC793 /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/CalcController.m"; sourceTree = "<group>"; };
 		B0D5E49D237DD25300CBC793 /* FileIOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileIOController.m; sourceTree = "<group>"; };
 		B0D5E49E237DD25300CBC793 /* FileIOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIOController.h; sourceTree = "<group>"; };
+		B0D5E4A4237DD35400CBC793 /* programming.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = programming.c; sourceTree = "<group>"; };
+		B0D5E4A5237DD35400CBC793 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
+		B0D5E4A7237DD35400CBC793 /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/Control/control.h"; sourceTree = "<group>"; };
+		B0D5E4A8237DD35400CBC793 /* fileparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileparse.c; sourceTree = "<group>"; };
+		B0D5E4A9237DD35400CBC793 /* histogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = histogram.c; sourceTree = "<group>"; };
+		B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = reverseword.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +80,12 @@
 		B068232E237B25B0007CD8D4 /* control */ = {
 			isa = PBXGroup;
 			children = (
-				B068232F237B2623007CD8D4 /* control.h */,
-				B0D5E46D237DC03900CBC793 /* calc.c */,
-				B0D5E46E237DC03900CBC793 /* fileparse.c */,
-				B0D5E46A237DC03900CBC793 /* histogram.c */,
-				B0D5E46C237DC03900CBC793 /* programming.c */,
+				B0D5E4A5237DD35400CBC793 /* calc.c */,
+				B0D5E4A7237DD35400CBC793 /* control.h */,
+				B0D5E4A8237DD35400CBC793 /* fileparse.c */,
+				B0D5E4A9237DD35400CBC793 /* histogram.c */,
+				B0D5E4A4237DD35400CBC793 /* programming.c */,
+				B09F78C023996E60009F389A /* revereseword.c */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				B0D5E455237DBFDB00CBC793 /* FileIO.storyboard */,
 				B0D5E454237DBFDB00CBC793 /* Histogram.storyboard */,
 				B0D5E451237DBFDB00CBC793 /* Pythagoras.storyboard */,
+				B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */,
 				B0A7DAA3237089F600244149 /* Assets.xcassets */,
 				B068233B237B2C46007CD8D4 /* viewcontrollers */,
 				B068232E237B25B0007CD8D4 /* control */,
@@ -215,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */,
+				B0E2E769239AB95C00BBBFAD /* reverseword.storyboard in Resources */,
 				B0D5E45A237DBFDC00CBC793 /* FileIO.storyboard in Resources */,
 				B0D5E459237DBFDC00CBC793 /* Histogram.storyboard in Resources */,
 				B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */,
@@ -232,18 +239,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D5E473237DC03900CBC793 /* calc.c in Sources */,
+				B0D5E4AB237DD35400CBC793 /* calc.c in Sources */,
+				B0D5E4AA237DD35400CBC793 /* programming.c in Sources */,
 				B0A7DA99237089F300244149 /* AppDelegate.m in Sources */,
-				B0D5E472237DC03900CBC793 /* programming.c in Sources */,
 				B0A7DAAA237089F600244149 /* main.m in Sources */,
-				B0D5E470237DC03900CBC793 /* histogram.c in Sources */,
 				B0A7DA9C237089F300244149 /* SceneDelegate.m in Sources */,
-				B0D5E474237DC03900CBC793 /* fileparse.c in Sources */,
+				B0D5E4AE237DD35400CBC793 /* histogram.c in Sources */,
 				B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */,
 				B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */,
+				B09F78C123996E60009F389A /* revereseword.c in Sources */,
 				B0D5E4A3237DD25300CBC793 /* FileIOController.m in Sources */,
 				B0D5E4A1237DD25300CBC793 /* PythController.m in Sources */,
 				B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */,
+				B0D5E4AD237DD35400CBC793 /* fileparse.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
