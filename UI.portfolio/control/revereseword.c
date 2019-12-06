@@ -5,11 +5,12 @@
 //  Created by Ohanian, Aidan on 12/5/19.
 //  Copyright © 2019 Ohanian, Aidan. All rights reserved.
 // persistent variables used after calling functions
+
+
 char rev4XBuffer[LINE_BUFFER_SIZE];
 char *isPali = "Is Palindrome";
-char *noPali = "Not a Palindrome";
-// array reverse function
-char *revXArray(const char* input, long length) {
+char *noPali = "Not a Palindrome";char *revXArray(const char* input, long length) {
+    
     // copy string to buffer, don't disrupt original
     strncpy(rev4XBuffer, input, length);
     // reverse char's in by array reverence
@@ -23,6 +24,7 @@ void recurse(char* input, long begin, long end) {
     // recursion continues
     recurse(input, ++begin, --end);
 }
+
 // recursion reverse function
 char *revXRecurse(const char* input, long length){
     // copy string to buffer, don't disrupt original
