@@ -14,6 +14,7 @@
 		B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA3237089F600244149 /* Assets.xcassets */; };
 		B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */; };
 		B0A7DAAA237089F600244149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DAA9237089F600244149 /* main.m */; };
+		B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A60D23AA8EDF005C40A3 /* trans.c */; };
 		B0D5E456237DBFDC00CBC793 /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D5E451237DBFDB00CBC793 /* Pythagoras.storyboard */; };
 		B0D5E457237DBFDC00CBC793 /* AlgoSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D5E452237DBFDB00CBC793 /* AlgoSearch.storyboard */; };
 		B0D5E458237DBFDC00CBC793 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D5E453237DBFDB00CBC793 /* Calculator.storyboard */; };
@@ -29,6 +30,8 @@
 		B0D5E4AD237DD35400CBC793 /* fileparse.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A8237DD35400CBC793 /* fileparse.c */; };
 		B0D5E4AE237DD35400CBC793 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A9237DD35400CBC793 /* histogram.c */; };
 		B0E2E769239AB95C00BBBFAD /* reverseword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */; };
+		B0EB28BC23A946F800EAE64D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EB28BB23A946F800EAE64D /* Storyboard.storyboard */; };
+		B0EB28BE23A94A9700EAE64D /* transcontoller.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB28BD23A94A9700EAE64D /* transcontoller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,8 @@
 		B0A7DAA6237089F600244149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7DAA8237089F600244149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A7DAA9237089F600244149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0D2A60C23AA8EDF005C40A3 /* trans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trans.h; sourceTree = "<group>"; };
+		B0D2A60D23AA8EDF005C40A3 /* trans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trans.c; sourceTree = "<group>"; };
 		B0D5E451237DBFDB00CBC793 /* Pythagoras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Pythagoras.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Pythagoras.storyboard"; sourceTree = "<group>"; };
 		B0D5E452237DBFDB00CBC793 /* AlgoSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AlgoSearch.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/AlgoSearch.storyboard"; sourceTree = "<group>"; };
 		B0D5E453237DBFDB00CBC793 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calculator.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Calculator.storyboard"; sourceTree = "<group>"; };
@@ -64,6 +69,9 @@
 		B0D5E4A8237DD35400CBC793 /* fileparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileparse.c; sourceTree = "<group>"; };
 		B0D5E4A9237DD35400CBC793 /* histogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = histogram.c; sourceTree = "<group>"; };
 		B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = reverseword.storyboard; sourceTree = "<group>"; };
+		B0EB28BB23A946F800EAE64D /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B0EB28BD23A94A9700EAE64D /* transcontoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transcontoller.m; sourceTree = "<group>"; };
+		B0EB28BF23A94AB600EAE64D /* transcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transcontroller.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				B0D5E4A5237DD35400CBC793 /* calc.c */,
+				B0D2A60C23AA8EDF005C40A3 /* trans.h */,
+				B0D2A60D23AA8EDF005C40A3 /* trans.c */,
 				B0D5E4A7237DD35400CBC793 /* control.h */,
 				B0D5E4A8237DD35400CBC793 /* fileparse.c */,
 				B0D5E4A9237DD35400CBC793 /* histogram.c */,
@@ -121,6 +131,8 @@
 				B0D5E495237DD25200CBC793 /* HistoController.m */,
 				B0D5E49B237DD25300CBC793 /* PythController.h */,
 				B0D5E49A237DD25300CBC793 /* PythController.m */,
+				B0EB28BD23A94A9700EAE64D /* transcontoller.m */,
+				B0EB28BF23A94AB600EAE64D /* transcontroller.h */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -156,6 +168,7 @@
 				B0D5E454237DBFDB00CBC793 /* Histogram.storyboard */,
 				B0D5E451237DBFDB00CBC793 /* Pythagoras.storyboard */,
 				B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */,
+				B0EB28BB23A946F800EAE64D /* Storyboard.storyboard */,
 				B0A7DAA3237089F600244149 /* Assets.xcassets */,
 				B068233B237B2C46007CD8D4 /* viewcontrollers */,
 				B068232E237B25B0007CD8D4 /* control */,
@@ -229,6 +242,7 @@
 				B0D5E458237DBFDC00CBC793 /* Calculator.storyboard in Resources */,
 				B0A7DAA2237089F300244149 /* Main.storyboard in Resources */,
 				B0D5E457237DBFDC00CBC793 /* AlgoSearch.storyboard in Resources */,
+				B0EB28BC23A946F800EAE64D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,11 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */,
 				B0D5E4AB237DD35400CBC793 /* calc.c in Sources */,
 				B0D5E4AA237DD35400CBC793 /* programming.c in Sources */,
 				B0A7DA99237089F300244149 /* AppDelegate.m in Sources */,
 				B0A7DAAA237089F600244149 /* main.m in Sources */,
 				B0A7DA9C237089F300244149 /* SceneDelegate.m in Sources */,
+				B0EB28BE23A94A9700EAE64D /* transcontoller.m in Sources */,
 				B0D5E4AE237DD35400CBC793 /* histogram.c in Sources */,
 				B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */,
 				B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */,

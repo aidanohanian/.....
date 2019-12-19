@@ -58,3 +58,4 @@ char *paliEval(const char* input, long length) {
     // compare for equality, return message
     return 1 ? isPali : noPali;
 }
+
