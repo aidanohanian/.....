@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8BAA3223ADA35800616B7D /* CalcuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BAA3123ADA35800616B7D /* CalcuController.m */; };
 		B09F78C123996E60009F389A /* revereseword.c in Sources */ = {isa = PBXBuildFile; fileRef = B09F78C023996E60009F389A /* revereseword.c */; };
 		B0A7DA99237089F300244149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DA98237089F300244149 /* AppDelegate.m */; };
 		B0A7DA9C237089F300244149 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DA9B237089F300244149 /* SceneDelegate.m */; };
@@ -23,7 +24,6 @@
 		B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E495237DD25200CBC793 /* HistoController.m */; };
 		B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E497237DD25300CBC793 /* AlgoController.m */; };
 		B0D5E4A1237DD25300CBC793 /* PythController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49A237DD25300CBC793 /* PythController.m */; };
-		B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49C237DD25300CBC793 /* CalcController.m */; };
 		B0D5E4A3237DD25300CBC793 /* FileIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E49D237DD25300CBC793 /* FileIOController.m */; };
 		B0D5E4AA237DD35400CBC793 /* programming.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A4237DD35400CBC793 /* programming.c */; };
 		B0D5E4AB237DD35400CBC793 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E4A5237DD35400CBC793 /* calc.c */; };
@@ -35,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D8BAA3023ADA11000616B7D /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		6D8BAA3123ADA35800616B7D /* CalcuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcuController.m; sourceTree = "<group>"; };
 		B09F78C023996E60009F389A /* revereseword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revereseword.c; sourceTree = "<group>"; };
 		B0A7DA94237089F300244149 /* UI.portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI.portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7DA97237089F300244149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,7 +48,6 @@
 		B0A7DAA6237089F600244149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7DAA8237089F600244149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A7DAA9237089F600244149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0D2A60C23AA8EDF005C40A3 /* trans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trans.h; sourceTree = "<group>"; };
 		B0D2A60D23AA8EDF005C40A3 /* trans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trans.c; sourceTree = "<group>"; };
 		B0D5E451237DBFDB00CBC793 /* Pythagoras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Pythagoras.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/Pythagoras.storyboard"; sourceTree = "<group>"; };
 		B0D5E452237DBFDB00CBC793 /* AlgoSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AlgoSearch.storyboard; path = "../../../Downloads/p1f-jm1021-master/Uiportfolio/Views/AlgoSearch.storyboard"; sourceTree = "<group>"; };
@@ -60,12 +61,10 @@
 		B0D5E499237DD25300CBC793 /* HistoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoController.h; sourceTree = "<group>"; };
 		B0D5E49A237DD25300CBC793 /* PythController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PythController.m; sourceTree = "<group>"; };
 		B0D5E49B237DD25300CBC793 /* PythController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PythController.h; sourceTree = "<group>"; };
-		B0D5E49C237DD25300CBC793 /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcController.m; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/ViewControllers/CalcController.m"; sourceTree = "<group>"; };
 		B0D5E49D237DD25300CBC793 /* FileIOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileIOController.m; sourceTree = "<group>"; };
 		B0D5E49E237DD25300CBC793 /* FileIOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIOController.h; sourceTree = "<group>"; };
 		B0D5E4A4237DD35400CBC793 /* programming.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = programming.c; sourceTree = "<group>"; };
 		B0D5E4A5237DD35400CBC793 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
-		B0D5E4A7237DD35400CBC793 /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control.h; path = "../../../../Downloads/p1f-jm1021-master-2/Uiportfolio/Control/control.h"; sourceTree = "<group>"; };
 		B0D5E4A8237DD35400CBC793 /* fileparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileparse.c; sourceTree = "<group>"; };
 		B0D5E4A9237DD35400CBC793 /* histogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = histogram.c; sourceTree = "<group>"; };
 		B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = reverseword.storyboard; sourceTree = "<group>"; };
@@ -90,12 +89,11 @@
 			children = (
 				B0D5E4A5237DD35400CBC793 /* calc.c */,
 				B0D2A60D23AA8EDF005C40A3 /* trans.c */,
-				B0D5E4A7237DD35400CBC793 /* control.h */,
 				B0D5E4A8237DD35400CBC793 /* fileparse.c */,
 				B0D5E4A9237DD35400CBC793 /* histogram.c */,
 				B0D5E4A4237DD35400CBC793 /* programming.c */,
 				B09F78C023996E60009F389A /* revereseword.c */,
-				B0D2A60C23AA8EDF005C40A3 /* trans.h */,
+				6D8BAA3023ADA11000616B7D /* control.h */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -124,7 +122,7 @@
 				B0D5E498237DD25300CBC793 /* AlgoController.h */,
 				B0D5E497237DD25300CBC793 /* AlgoController.m */,
 				B0D5E496237DD25200CBC793 /* CalcController.h */,
-				B0D5E49C237DD25300CBC793 /* CalcController.m */,
+				6D8BAA3123ADA35800616B7D /* CalcuController.m */,
 				B0D5E49E237DD25300CBC793 /* FileIOController.h */,
 				B0D5E49D237DD25300CBC793 /* FileIOController.m */,
 				B0D5E499237DD25300CBC793 /* HistoController.h */,
@@ -262,8 +260,8 @@
 				B0EB28BE23A94A9700EAE64D /* transcontoller.m in Sources */,
 				B0D5E4AE237DD35400CBC793 /* histogram.c in Sources */,
 				B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */,
-				B0D5E4A2237DD25300CBC793 /* CalcController.m in Sources */,
 				B09F78C123996E60009F389A /* revereseword.c in Sources */,
+				6D8BAA3223ADA35800616B7D /* CalcuController.m in Sources */,
 				B0D5E4A3237DD25300CBC793 /* FileIOController.m in Sources */,
 				B0D5E4A1237DD25300CBC793 /* PythController.m in Sources */,
 				B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */,

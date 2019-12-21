@@ -5,9 +5,8 @@
 //  Created by John Mortensen on 9/25/19.
 //  Copyright © 2019 Mortensen, John. All rights reserved.
 //
-
+#include <stdio.h>
 #include "control.h"
-#include "studio.h"
 
 void getHistoArray(int *arr, int size)
 {

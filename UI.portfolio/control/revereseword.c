@@ -6,6 +6,10 @@
 //  Copyright © 2019 Ohanian, Aidan. All rights reserved.
 // persistent variables used after calling functions
 
+#include <stdio.h>
+#include <string.h>
+#include "control.h"
+
 
 char rev4XBuffer[LINE_BUFFER_SIZE];
 char *isPali = "Is Palindrome";
