@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="776" y="204"/>
         </scene>
-        <!--AlgoSearch-->
+        <!--AlgoSearch1-->
         <scene sceneID="EV0-Yu-dyD">
             <objects>
-                <viewControllerPlaceholder storyboardName="AlgoSearch" id="SpY-S3-oGd" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="AlgoSearch1" id="SpY-S3-oGd" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="PSg-aE-cCt"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="axo-9p-CCx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
