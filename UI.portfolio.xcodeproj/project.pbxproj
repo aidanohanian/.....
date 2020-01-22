@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D8BAA3223ADA35800616B7D /* CalcuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BAA3123ADA35800616B7D /* CalcuController.m */; };
 		B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0160A0E23CE37AF006E38D5 /* golf.storyboard */; };
+		B039CBCD23D8B68A00F1F676 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B039CBCC23D8B68A00F1F676 /* main.storyboard */; };
 		B09F78C123996E60009F389A /* revereseword.c in Sources */ = {isa = PBXBuildFile; fileRef = B09F78C023996E60009F389A /* revereseword.c */; };
 		B0A704CD23C8DEF000BC077B /* FileIO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */; };
 		B0A704CF23C8DF2600BC077B /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704CE23C8DF2600BC077B /* Calculator.storyboard */; };
@@ -20,7 +21,6 @@
 		B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA3237089F600244149 /* Assets.xcassets */; };
 		B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */; };
 		B0A7DAAA237089F600244149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DAA9237089F600244149 /* main.m */; };
-		B0B7F2F723D0C63700340165 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B7F2F623D0C63700340165 /* Storyboard.storyboard */; };
 		B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A60D23AA8EDF005C40A3 /* trans.c */; };
 		B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E495237DD25200CBC793 /* HistoController.m */; };
 		B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E497237DD25300CBC793 /* AlgoController.m */; };
@@ -41,6 +41,7 @@
 		6D8BAA3023ADA11000616B7D /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		6D8BAA3123ADA35800616B7D /* CalcuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcuController.m; sourceTree = "<group>"; };
 		B0160A0E23CE37AF006E38D5 /* golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = golf.storyboard; path = UI.portfolio/golf.storyboard; sourceTree = SOURCE_ROOT; };
+		B039CBCC23D8B68A00F1F676 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		B09F78C023996E60009F389A /* revereseword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revereseword.c; sourceTree = "<group>"; };
 		B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FileIO.storyboard; sourceTree = "<group>"; };
 		B0A704CE23C8DF2600BC077B /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		B0A7DAA6237089F600244149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7DAA8237089F600244149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A7DAA9237089F600244149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0B7F2F623D0C63700340165 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		B0D2A60D23AA8EDF005C40A3 /* trans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trans.c; sourceTree = "<group>"; };
 		B0D5E495237DD25200CBC793 /* HistoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
 		B0D5E496237DD25200CBC793 /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
@@ -108,9 +108,9 @@
 		B0682336237B28A9007CD8D4 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				B039CBCC23D8B68A00F1F676 /* main.storyboard */,
 				B0F339D723CF765E00D50842 /* golfball-2.png */,
 				B0160A0E23CE37AF006E38D5 /* golf.storyboard */,
-				B0B7F2F623D0C63700340165 /* Storyboard.storyboard */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -250,8 +250,8 @@
 				B0A704D723C8DF9C00BC077B /* AlgoSearch1.storyboard in Resources */,
 				B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */,
 				B0A704D323C8DF6300BC077B /* Pythagoras.storyboard in Resources */,
+				B039CBCD23D8B68A00F1F676 /* main.storyboard in Resources */,
 				B0A704CD23C8DEF000BC077B /* FileIO.storyboard in Resources */,
-				B0B7F2F723D0C63700340165 /* Storyboard.storyboard in Resources */,
 				B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */,
 				B0EB28BC23A946F800EAE64D /* translate.storyboard in Resources */,
 			);
