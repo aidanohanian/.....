@@ -6,10 +6,9 @@
 //  Copyright © 2020 Ohanian, Aidan. All rights reserved.
 //
 
-#import "GolfController.h"
-
+#import "golfcontroller.h"
 @implementation GolfController
-@synthesize ball, hole, firstPoint, lastPoint;
+@synthesize ball, hole, pond, firstPoint, lastPoint;
 - (void)viewDidLoad {
  [super viewDidLoad];
  // changes hole image to be circular
@@ -17,7 +16,7 @@
  self.hole.layer.masksToBounds = YES;
 }
 -(void)moveBall {
-  // simulates friction by reducing velocity
+ // simulates friction by reducing velocity
  self.ballVelocityX = speedDamping * self.ballVelocityX;
  self.ballVelocityY = speedDamping * self.ballVelocityY;
   
@@ -26,16 +25,16 @@
   
  // logic to calculate if ball and hole collide
  if (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
-  [self.gameTimer invalidate];
-  [self.view setUserInteractionEnabled:YES];
-  self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
-  self.ball.alpha = 0.2;
+ [self.gameTimer invalidate];
+ [self.view setUserInteractionEnabled:YES];
+ self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
+ self.ball.alpha = 0.2;
  }
   
  // if ball slows/stops turn off game timer and turn user interaction back on
  if(fabs(self.ballVelocityX) < stopSpeed && fabs(self.ballVelocityY) < stopSpeed) {
-  [self.gameTimer invalidate];
-  [self.view setUserInteractionEnabled:YES];
+ [self.gameTimer invalidate];
+ [self.view setUserInteractionEnabled:YES];
  }
 }
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -49,25 +48,31 @@
   
 }
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
- NSLog(@"touches Ended");
-  
- UITouch *touch = [touches anyObject];
-  
- // store point a touch end
- self.lastPoint = [touch locationInView:self.view];
-  
- // logic to calculate swipevector as distance between touch began and touch end
- CGPoint swipeVector = CGPointMake(self.lastPoint.x - self.firstPoint.x, self.lastPoint.y - self.firstPoint.y);
-  
- // velocity of ball based off of swipe
- self.ballVelocityX = speedScale * swipeVector.x;
- self.ballVelocityY = speedScale * swipeVector.y;
-  
- // move ball occurs multiple times at this sampling rate, until friction causes ball to stop
- self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
+   NSLog(@"touches Ended");
+    
+   UITouch *touch = [touches anyObject];
+    
+   // store point a touch end
+   self.lastPoint = [touch locationInView:self.view];
+    
+   // logic to calculate swipevector as distance between touch began and touch end
+   CGPoint swipeVector = CGPointMake(self.lastPoint.x - self.firstPoint.x, self.lastPoint.y - self.firstPoint.y);
+    
+   // velocity of ball based off of swipe
+   self.ballVelocityX = speedScale * swipeVector.x;
+   self.ballVelocityY = speedScale * swipeVector.y;
+    
+   // move ball occurs multiple times at this sampling rate, until friction causes ball to stop
+   self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
+  // logic to calculate if ball and pond collide
+  if (CGRectIntersectsRect(self.ball.frame, self.pond.frame)) {
+   [self.gameTimer invalidate];
+   [self.view setUserInteractionEnabled:YES];
+   self.ball.center = CGPointMake(self.pond.center.x, self.pond.center.y);
+   self.ball.alpha = 0.2;
+  }
 }
 @end
-
 
 
 
