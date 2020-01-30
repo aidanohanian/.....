@@ -19,16 +19,20 @@
                                 <rect key="frame" x="182" y="749" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qJ-51-S3o">
-                                <rect key="frame" x="168" y="66" width="78" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled drawing.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gdx-vs-pd8">
-                                <rect key="frame" x="100" y="171" width="212" height="158"/>
+                                <rect key="frame" x="101" y="193" width="202" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qJ-51-S3o">
+                                <rect key="frame" x="182" y="64" width="40" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wall.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="2zs-bk-cs1">
+                                <rect key="frame" x="134" y="502" width="280" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,8 +40,8 @@
                     </view>
                     <connections>
                         <outlet property="ball" destination="p9T-bd-14N" id="DLe-cN-Ykl"/>
-                        <outlet property="hole" destination="1qJ-51-S3o" id="01Q-mH-c9B"/>
-                        <outlet property="pond" destination="gdx-vs-pd8" id="I0j-u5-Cbk"/>
+                        <outlet property="hole" destination="gdx-vs-pd8" id="H3C-H5-Xke"/>
+                        <outlet property="wall1" destination="2zs-bk-cs1" id="F51-eV-eA3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Sq-vi-79T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -52,5 +56,6 @@
     <resources>
         <image name="Untitled drawing.png" width="960" height="720"/>
         <image name="golfball-2.png" width="114" height="114"/>
+        <image name="wall.jpeg" width="377" height="134"/>
     </resources>
 </document>

@@ -8,13 +8,14 @@
 
 #import "golfcontroller.h"
 @implementation GolfController
-@synthesize ball, hole, pond, firstPoint, lastPoint;
+@synthesize ball, hole, pond, wall1, firstPoint, lastPoint;
 - (void)viewDidLoad {
  [super viewDidLoad];
  // changes hole image to be circular
  self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
  self.hole.layer.masksToBounds = YES;
 }
+
 -(void)moveBall {
  // simulates friction by reducing velocity
  self.ballVelocityX = speedDamping * self.ballVelocityX;
@@ -22,7 +23,11 @@
   
  // this is the ball move
  self.ball.center = CGPointMake(self.ball.center.x + self.ballVelocityX, self.ball.center.y + self.ballVelocityY);
-  
+
+    if (CGRectIntersectsRect(self.ball.frame, self.wall1.frame)) {
+     self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+    }
+
  // logic to calculate if ball and hole collide
  if (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
  [self.gameTimer invalidate];
@@ -37,6 +42,7 @@
  [self.view setUserInteractionEnabled:YES];
  }
 }
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
  NSLog(@"touches Began");
  UITouch *touch = [touches anyObject];
@@ -74,6 +80,4 @@
 }
 @end
 
-
-
-
+ 
