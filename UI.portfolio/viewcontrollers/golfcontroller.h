@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *hole;
 @property (strong, nonatomic) IBOutlet UIImageView *ball;
 @property (strong, nonatomic) IBOutlet UIImageView *pond;
+@property (strong, nonatomic) IBOutlet UIImageView *wall1;
 
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;
