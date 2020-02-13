@@ -11,7 +11,6 @@
 		B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0160A0E23CE37AF006E38D5 /* golf.storyboard */; };
 		B039CBCD23D8B68A00F1F676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B039CBCC23D8B68A00F1F676 /* Main.storyboard */; };
 		B09F78C123996E60009F389A /* revereseword.c in Sources */ = {isa = PBXBuildFile; fileRef = B09F78C023996E60009F389A /* revereseword.c */; };
-		B0A3EE4E23F1C392000C3E06 /* card.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EE4D23F1C392000C3E06 /* card.storyboard */; };
 		B0A704CD23C8DEF000BC077B /* FileIO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */; };
 		B0A704CF23C8DF2600BC077B /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704CE23C8DF2600BC077B /* Calculator.storyboard */; };
 		B0A704D323C8DF6300BC077B /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704D223C8DF6300BC077B /* Pythagoras.storyboard */; };
@@ -22,6 +21,8 @@
 		B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA3237089F600244149 /* Assets.xcassets */; };
 		B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */; };
 		B0A7DAAA237089F600244149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DAA9237089F600244149 /* main.m */; };
+		B0CAE9D323F5B20E0054AF88 /* cardscontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE9D223F5B20E0054AF88 /* cardscontroller.m */; };
+		B0CAE9D623F5B2770054AF88 /* card.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAE9D523F5B2770054AF88 /* card.storyboard */; };
 		B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A60D23AA8EDF005C40A3 /* trans.c */; };
 		B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E495237DD25200CBC793 /* HistoController.m */; };
 		B0D5E4A0237DD25300CBC793 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E497237DD25300CBC793 /* AlgoController.m */; };
@@ -47,7 +48,6 @@
 		B0160A0E23CE37AF006E38D5 /* golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = golf.storyboard; path = UI.portfolio/golf.storyboard; sourceTree = SOURCE_ROOT; };
 		B039CBCC23D8B68A00F1F676 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B09F78C023996E60009F389A /* revereseword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revereseword.c; sourceTree = "<group>"; };
-		B0A3EE4D23F1C392000C3E06 /* card.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = card.storyboard; sourceTree = "<group>"; };
 		B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FileIO.storyboard; sourceTree = "<group>"; };
 		B0A704CE23C8DF2600BC077B /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
 		B0A704D223C8DF6300BC077B /* Pythagoras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pythagoras.storyboard; sourceTree = "<group>"; };
@@ -62,6 +62,9 @@
 		B0A7DAA6237089F600244149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7DAA8237089F600244149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A7DAA9237089F600244149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0CAE9D223F5B20E0054AF88 /* cardscontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardscontroller.m; sourceTree = "<group>"; };
+		B0CAE9D423F5B2220054AF88 /* cardscontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cardscontroller.h; sourceTree = "<group>"; };
+		B0CAE9D523F5B2770054AF88 /* card.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = card.storyboard; path = views/card.storyboard; sourceTree = "<group>"; };
 		B0D2A60D23AA8EDF005C40A3 /* trans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trans.c; sourceTree = "<group>"; };
 		B0D5E495237DD25200CBC793 /* HistoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
 		B0D5E496237DD25200CBC793 /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
@@ -121,7 +124,7 @@
 				B0EED26A23E33D9800E42F92 /* maxresdefault.jpg */,
 				B0F339D723CF765E00D50842 /* golfball-2.png */,
 				B0F7E54D23DB584F0067600E /* Untitled drawing.png */,
-				B0160A0E23CE37AF006E38D5 /* golf.storyboard */,
+				B0A7DAA3237089F600244149 /* Assets.xcassets */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -154,6 +157,8 @@
 				B0EB28BF23A94AB600EAE64D /* transcontroller.h */,
 				B0F339DA23CF784D00D50842 /* golfcontroller.m */,
 				B0F339D923CF781E00D50842 /* golfcontroller.h */,
+				B0CAE9D223F5B20E0054AF88 /* cardscontroller.m */,
+				B0CAE9D423F5B2220054AF88 /* cardscontroller.h */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -184,13 +189,13 @@
 				B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */,
 				B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */,
 				B0A704D823C8E02500BC077B /* Histogram.storyboard */,
-				B0A3EE4D23F1C392000C3E06 /* card.storyboard */,
 				B0EB28BB23A946F800EAE64D /* translate.storyboard */,
-				B0A704D623C8DF9C00BC077B /* AlgoSearch1.storyboard */,
 				B0A704D223C8DF6300BC077B /* Pythagoras.storyboard */,
+				B0A704D623C8DF9C00BC077B /* AlgoSearch1.storyboard */,
 				B0A704CE23C8DF2600BC077B /* Calculator.storyboard */,
 				B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */,
-				B0A7DAA3237089F600244149 /* Assets.xcassets */,
+				B0160A0E23CE37AF006E38D5 /* golf.storyboard */,
+				B0CAE9D523F5B2770054AF88 /* card.storyboard */,
 				B068233B237B2C46007CD8D4 /* viewcontrollers */,
 				B068232E237B25B0007CD8D4 /* control */,
 			);
@@ -259,7 +264,7 @@
 				B0E2E769239AB95C00BBBFAD /* reverseword.storyboard in Resources */,
 				B0F339D823CF765E00D50842 /* golfball-2.png in Resources */,
 				B0A704CF23C8DF2600BC077B /* Calculator.storyboard in Resources */,
-				B0A3EE4E23F1C392000C3E06 /* card.storyboard in Resources */,
+				B0CAE9D623F5B2770054AF88 /* card.storyboard in Resources */,
 				B0A704D723C8DF9C00BC077B /* AlgoSearch1.storyboard in Resources */,
 				B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */,
 				B0A704D323C8DF6300BC077B /* Pythagoras.storyboard in Resources */,
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CAE9D323F5B20E0054AF88 /* cardscontroller.m in Sources */,
 				B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */,
 				B0D5E4AB237DD35400CBC793 /* calc.c in Sources */,
 				B0D5E4AA237DD35400CBC793 /* programming.c in Sources */,

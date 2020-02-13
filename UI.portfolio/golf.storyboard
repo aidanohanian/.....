@@ -11,7 +11,7 @@
         <scene sceneID="Jda-44-8mq">
             <objects>
                 <viewController id="k1M-hW-Rxd" customClass="GolfController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uoI-G7-50k">
+                    <view key="view" contentMode="scaleToFill" id="uoI-G7-50k" customClass="golfcontroller" customModule="UI_portfolio" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CqG-1a-B3T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CqG-1a-B3T">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,6 +36,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Reverse"/>
+                                <connections>
+                                    <segue destination="kDl-Wy-ceQ" kind="show" id="jhR-0Q-HXa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Storyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tns-or-6LJ">
                                 <rect key="frame" x="84" y="77" width="247" height="42"/>
@@ -49,36 +52,54 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Histogram"/>
+                                <connections>
+                                    <segue destination="Qlx-XE-Vr3" kind="show" id="ePq-zJ-SqS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="053-84-n2D">
                                 <rect key="frame" x="158" y="326" width="109" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Translate"/>
+                                <connections>
+                                    <segue destination="RgR-sr-lCQ" kind="show" id="nZE-DU-zdJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSh-sV-pGN">
                                 <rect key="frame" x="143" y="405" width="140" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="AlgoSearch"/>
+                                <connections>
+                                    <segue destination="M5N-zR-zT0" kind="show" id="pwU-4s-auF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sip-9w-pD7">
                                 <rect key="frame" x="145" y="486" width="137" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Pythagoras"/>
+                                <connections>
+                                    <segue destination="dW3-je-gTe" kind="show" id="vKU-ci-Wzn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUl-MP-CaF">
                                 <rect key="frame" x="151" y="563" width="123" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Calculator"/>
+                                <connections>
+                                    <segue destination="MCP-aQ-CgM" kind="show" id="jz3-Hx-aM8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ln6-Ut-wLf">
                                 <rect key="frame" x="175" y="628" width="77" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="File.IO"/>
+                                <connections>
+                                    <segue destination="c36-MS-GNr" kind="show" id="Snm-jv-Tiw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xy-AP-CAB">
                                 <rect key="frame" x="188" y="682" width="51" height="46"/>
@@ -87,6 +108,15 @@
                                 <state key="normal" title="Golf"/>
                                 <connections>
                                     <segue destination="8Of-NH-DnI" kind="show" id="pH7-YQ-Mdx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpf-OX-dL9">
+                                <rect key="frame" x="177" y="736" width="72" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Cards"/>
+                                <connections>
+                                    <segue destination="9s5-ia-jUm" kind="show" id="bjg-Kw-rhB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -99,6 +129,46 @@
             </objects>
             <point key="canvasLocation" x="286.95652173913044" y="184.82142857142856"/>
         </scene>
+        <!--reverseword-->
+        <scene sceneID="ggm-yH-zYY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="reverseword" id="kDl-Wy-ceQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9o2-dg-gD6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPM-pg-obc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="112"/>
+        </scene>
+        <!--Histogram-->
+        <scene sceneID="Dqk-aF-iA4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Histogram" id="Qlx-XE-Vr3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ahb-NS-xkJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yZv-9x-Dhb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846" y="159"/>
+        </scene>
+        <!--AlgoSearch1-->
+        <scene sceneID="neh-aF-ega">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AlgoSearch1" id="M5N-zR-zT0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="NMp-iv-kNQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Go-7X-eqt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="247"/>
+        </scene>
+        <!--translate-->
+        <scene sceneID="KIQ-Y6-9Yl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="translate" id="RgR-sr-lCQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uxA-n3-Cpf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gwd-xC-aKL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="201"/>
+        </scene>
         <!--golf-->
         <scene sceneID="tj0-BY-2lO">
             <objects>
@@ -107,7 +177,47 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rce-wc-GyS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="383"/>
+            <point key="canvasLocation" x="812" y="404"/>
+        </scene>
+        <!--Pythagoras-->
+        <scene sceneID="peK-dx-LmJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pythagoras" id="dW3-je-gTe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KxT-GL-yUC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k8g-ku-1Bu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="845" y="286"/>
+        </scene>
+        <!--Calculator-->
+        <scene sceneID="1N0-H4-yfX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calculator" id="MCP-aQ-CgM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Gd3-wH-8SW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CYK-Xj-vpu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="331"/>
+        </scene>
+        <!--FileIO-->
+        <scene sceneID="6MK-dx-aXc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FileIO" id="c36-MS-GNr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ABA-CH-Tsc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9f-qv-Z0h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="368"/>
+        </scene>
+        <!--card-->
+        <scene sceneID="7z4-XX-lF4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="card" id="9s5-ia-jUm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sxc-Bi-wb6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9gm-0k-olO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="445"/>
         </scene>
     </scenes>
 </document>
