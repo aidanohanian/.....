@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D8BAA3223ADA35800616B7D /* CalcuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BAA3123ADA35800616B7D /* CalcuController.m */; };
 		B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0160A0E23CE37AF006E38D5 /* golf.storyboard */; };
-		B039CBCD23D8B68A00F1F676 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B039CBCC23D8B68A00F1F676 /* Main1.storyboard */; };
+		B039CBCD23D8B68A00F1F676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B039CBCC23D8B68A00F1F676 /* Main.storyboard */; };
 		B09F78C123996E60009F389A /* revereseword.c in Sources */ = {isa = PBXBuildFile; fileRef = B09F78C023996E60009F389A /* revereseword.c */; };
 		B0A704CD23C8DEF000BC077B /* FileIO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */; };
 		B0A704CF23C8DF2600BC077B /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A704CE23C8DF2600BC077B /* Calculator.storyboard */; };
@@ -46,7 +46,7 @@
 		6D8BAA3023ADA11000616B7D /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		6D8BAA3123ADA35800616B7D /* CalcuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcuController.m; sourceTree = "<group>"; };
 		B0160A0E23CE37AF006E38D5 /* golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = golf.storyboard; path = UI.portfolio/golf.storyboard; sourceTree = SOURCE_ROOT; };
-		B039CBCC23D8B68A00F1F676 /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main1.storyboard; path = views/Main1.storyboard; sourceTree = "<group>"; };
+		B039CBCC23D8B68A00F1F676 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = views/Main.storyboard; sourceTree = "<group>"; };
 		B09F78C023996E60009F389A /* revereseword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revereseword.c; sourceTree = "<group>"; };
 		B0A704CC23C8DEEF00BC077B /* FileIO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FileIO.storyboard; sourceTree = "<group>"; };
 		B0A704CE23C8DF2600BC077B /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 				B0682337237B291D007CD8D4 /* models */,
 				B0682336237B28A9007CD8D4 /* views */,
 				B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */,
-				B039CBCC23D8B68A00F1F676 /* Main1.storyboard */,
+				B039CBCC23D8B68A00F1F676 /* Main.storyboard */,
 				B0E2E768239AB95C00BBBFAD /* reverseword.storyboard */,
 				B0A704D823C8E02500BC077B /* Histogram.storyboard */,
 				B0EB28BB23A946F800EAE64D /* translate.storyboard */,
@@ -269,7 +269,7 @@
 				B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */,
 				B0A704D323C8DF6300BC077B /* Pythagoras.storyboard in Resources */,
 				B0F7E54E23DB584F0067600E /* Untitled drawing.png in Resources */,
-				B039CBCD23D8B68A00F1F676 /* Main1.storyboard in Resources */,
+				B039CBCD23D8B68A00F1F676 /* Main.storyboard in Resources */,
 				B0A704CD23C8DEF000BC077B /* FileIO.storyboard in Resources */,
 				B0EED26B23E33D9800E42F92 /* maxresdefault.jpg in Resources */,
 				B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */,
