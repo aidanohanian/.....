@@ -37,7 +37,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Reverse"/>
                                 <connections>
-                                    <segue destination="JQg-yV-tYr" kind="show" id="QwD-rc-TMU"/>
+                                    <segue destination="Mqf-eX-qrA" kind="show" id="SIT-3I-Ce9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Storyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tns-or-6LJ">
@@ -53,7 +53,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Histogram"/>
                                 <connections>
-                                    <segue destination="0BO-uL-9jI" kind="show" id="2dO-Gv-Vow"/>
+                                    <segue destination="ZW4-76-B3A" kind="show" id="f4y-Kl-Cpi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="053-84-n2D">
@@ -62,7 +62,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Translate"/>
                                 <connections>
-                                    <segue destination="lbx-GQ-VjG" kind="show" id="iz1-zz-ixL"/>
+                                    <segue destination="HaZ-6x-xhA" kind="show" id="CPS-Oq-DXX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSh-sV-pGN">
@@ -71,7 +71,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="AlgoSearch"/>
                                 <connections>
-                                    <segue destination="egE-x1-clU" kind="show" id="TX8-Fw-WGP"/>
+                                    <segue destination="7ci-qK-rGG" kind="show" id="apD-HM-YbH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sip-9w-pD7">
@@ -80,7 +80,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Pythagoras"/>
                                 <connections>
-                                    <segue destination="I6J-XI-J2x" kind="show" id="RSH-JH-C7n"/>
+                                    <segue destination="fr1-3a-8oP" kind="show" id="EBO-pI-B5N"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUl-MP-CaF">
@@ -89,7 +89,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Calculator"/>
                                 <connections>
-                                    <segue destination="zsf-zB-pWY" kind="show" id="R5K-Vy-s3m"/>
+                                    <segue destination="JKg-1h-zNd" kind="show" id="tZW-J5-NZo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ln6-Ut-wLf">
@@ -98,7 +98,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="File.IO"/>
                                 <connections>
-                                    <segue destination="fhF-ec-lpk" kind="show" id="oYw-EY-4Oy"/>
+                                    <segue destination="iig-OY-T9O" kind="show" id="6hP-qD-G6h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xy-AP-CAB">
@@ -110,13 +110,13 @@
                                     <segue destination="8Of-NH-DnI" kind="show" id="pH7-YQ-Mdx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ue1-FQ-bnl">
-                                <rect key="frame" x="154" y="745" width="128" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Um-FK-2jr">
+                                <rect key="frame" x="164" y="727" width="108" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Card game"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Card Game"/>
                                 <connections>
-                                    <segue destination="GG2-dQ-Uvs" kind="show" id="0Tf-aE-lxC"/>
+                                    <segue destination="sGq-8d-Gws" kind="show" id="euS-6i-1qe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -129,85 +129,75 @@
             </objects>
             <point key="canvasLocation" x="286.95652173913044" y="184.82142857142856"/>
         </scene>
-        <!--Pythagoras-->
-        <scene sceneID="3ma-91-duL">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Pythagoras" id="I6J-XI-J2x" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="cmf-8j-ESz"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="egi-ax-wYJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="860" y="237"/>
-        </scene>
-        <!--Calculator-->
-        <scene sceneID="VuG-4N-fPD">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Calculator" id="zsf-zB-pWY" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="8Zr-g7-PJW"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VnK-Dp-hsI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="870" y="277"/>
-        </scene>
-        <!--FileIO-->
-        <scene sceneID="NzP-KO-qFK">
-            <objects>
-                <viewControllerPlaceholder storyboardName="FileIO" id="fhF-ec-lpk" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="F4u-dC-dQA"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9kr-HY-BKH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="870" y="324"/>
-        </scene>
         <!--reverseword-->
-        <scene sceneID="5QU-4f-miR">
+        <scene sceneID="k2E-ZI-77C">
             <objects>
-                <viewControllerPlaceholder storyboardName="reverseword" id="JQg-yV-tYr" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="iew-Rj-P9j"/>
+                <viewControllerPlaceholder storyboardName="reverseword" id="Mqf-eX-qrA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Jsj-oE-LZo"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pCB-HH-Un2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYJ-mD-fFv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="819" y="9"/>
-        </scene>
-        <!--translate-->
-        <scene sceneID="kOK-D6-V74">
-            <objects>
-                <viewControllerPlaceholder storyboardName="translate" id="lbx-GQ-VjG" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ggr-9H-V5E"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h3D-tP-Cmj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="834" y="123"/>
+            <point key="canvasLocation" x="780" y="12"/>
         </scene>
         <!--Histogram-->
-        <scene sceneID="yfx-wn-4eC">
+        <scene sceneID="5vw-Ho-vFI">
             <objects>
-                <viewControllerPlaceholder storyboardName="Histogram" id="0BO-uL-9jI" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Q5I-Iq-VIW"/>
+                <viewControllerPlaceholder storyboardName="Histogram" id="ZW4-76-B3A" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SHr-Nr-Zzw"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LoZ-uJ-fZM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kdz-4Q-cMw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="841" y="65"/>
+            <point key="canvasLocation" x="779" y="72"/>
+        </scene>
+        <!--translate-->
+        <scene sceneID="pkX-ke-R8b">
+            <objects>
+                <viewControllerPlaceholder storyboardName="translate" id="HaZ-6x-xhA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="I4I-YT-YbB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CHZ-q5-eKV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="118"/>
         </scene>
         <!--AlgoSearch1-->
-        <scene sceneID="D4f-Dm-B5g">
+        <scene sceneID="2Mz-EK-gll">
             <objects>
-                <viewControllerPlaceholder storyboardName="AlgoSearch1" id="egE-x1-clU" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="rZI-29-snJ"/>
+                <viewControllerPlaceholder storyboardName="AlgoSearch1" id="7ci-qK-rGG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="j3y-7J-vrV"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SXl-p7-7vL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PCP-NK-WmV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="849" y="185"/>
+            <point key="canvasLocation" x="782" y="185"/>
         </scene>
-        <!--card-->
-        <scene sceneID="wVq-pO-uNj">
+        <!--Pythagoras-->
+        <scene sceneID="yqG-bl-uig">
             <objects>
-                <viewControllerPlaceholder storyboardName="card" id="GG2-dQ-Uvs" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="l71-Ww-hYk"/>
+                <viewControllerPlaceholder storyboardName="Pythagoras" id="fr1-3a-8oP" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8Ky-xe-cak"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xTt-NI-fAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWS-q9-50L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870" y="406"/>
+            <point key="canvasLocation" x="782" y="223"/>
+        </scene>
+        <!--Calculator-->
+        <scene sceneID="9kz-8O-yJn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calculator" id="JKg-1h-zNd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="D3n-8J-zh8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bri-lz-VgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821" y="288"/>
+        </scene>
+        <!--FileIO-->
+        <scene sceneID="mtx-q5-bW1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FileIO" id="iig-OY-T9O" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="n7q-3M-erM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQl-af-tBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="801" y="321"/>
         </scene>
         <!--golf-->
         <scene sceneID="tj0-BY-2lO">
@@ -217,7 +207,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rce-wc-GyS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870" y="372"/>
+            <point key="canvasLocation" x="793" y="356"/>
+        </scene>
+        <!--card-->
+        <scene sceneID="3DR-9h-W1O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="card" id="sGq-8d-Gws" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="BXF-4W-yu3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFl-VA-7Dl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="403"/>
         </scene>
     </scenes>
 </document>
