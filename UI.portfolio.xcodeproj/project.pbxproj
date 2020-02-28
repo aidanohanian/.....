@@ -10,6 +10,7 @@
 		6D8BAA3223ADA35800616B7D /* CalcuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BAA3123ADA35800616B7D /* CalcuController.m */; };
 		B0160A0F23CE37AF006E38D5 /* golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0160A0E23CE37AF006E38D5 /* golf.storyboard */; };
 		B039CBCD23D8B68A00F1F676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B039CBCC23D8B68A00F1F676 /* Main.storyboard */; };
+		B09E479324097BE900F0A30F /* card.c in Sources */ = {isa = PBXBuildFile; fileRef = B09E479224097BE900F0A30F /* card.c */; };
 		B09F78C123996E60009F389A /* revereseword.c in Sources */ = {isa = PBXBuildFile; fileRef = B09F78C023996E60009F389A /* revereseword.c */; };
 		B0A2776C2406D95600235FC5 /* c4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0A2775F2406D95400235FC5 /* c4.jpg */; };
 		B0A2776D2406D95600235FC5 /* c7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0A277602406D95400235FC5 /* c7.jpg */; };
@@ -73,7 +74,7 @@
 		B0A7DAA4237089F600244149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA3237089F600244149 /* Assets.xcassets */; };
 		B0A7DAA7237089F600244149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A7DAA5237089F600244149 /* LaunchScreen.storyboard */; };
 		B0A7DAAA237089F600244149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A7DAA9237089F600244149 /* main.m */; };
-		B0CAE9D323F5B20E0054AF88 /* cardscontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE9D223F5B20E0054AF88 /* cardscontroller.m */; };
+		B0CAE9D323F5B20E0054AF88 /* CardController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAE9D223F5B20E0054AF88 /* CardController.m */; };
 		B0CAE9D623F5B2770054AF88 /* card.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CAE9D523F5B2770054AF88 /* card.storyboard */; };
 		B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A60D23AA8EDF005C40A3 /* trans.c */; };
 		B0D5E49F237DD25300CBC793 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D5E495237DD25200CBC793 /* HistoController.m */; };
@@ -99,6 +100,7 @@
 		6D8BAA3123ADA35800616B7D /* CalcuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcuController.m; sourceTree = "<group>"; };
 		B0160A0E23CE37AF006E38D5 /* golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = golf.storyboard; path = UI.portfolio/golf.storyboard; sourceTree = SOURCE_ROOT; };
 		B039CBCC23D8B68A00F1F676 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = views/Main.storyboard; sourceTree = "<group>"; };
+		B09E479224097BE900F0A30F /* card.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = card.c; sourceTree = "<group>"; };
 		B09F78C023996E60009F389A /* revereseword.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = revereseword.c; sourceTree = "<group>"; };
 		B0A2775F2406D95400235FC5 /* c4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c4.jpg; sourceTree = "<group>"; };
 		B0A277602406D95400235FC5 /* c7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c7.jpg; sourceTree = "<group>"; };
@@ -166,8 +168,8 @@
 		B0A7DAA6237089F600244149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A7DAA8237089F600244149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A7DAA9237089F600244149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0CAE9D223F5B20E0054AF88 /* cardscontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardscontroller.m; sourceTree = "<group>"; };
-		B0CAE9D423F5B2220054AF88 /* cardscontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cardscontroller.h; sourceTree = "<group>"; };
+		B0CAE9D223F5B20E0054AF88 /* CardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardController.m; sourceTree = "<group>"; };
+		B0CAE9D423F5B2220054AF88 /* CardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardController.h; sourceTree = "<group>"; };
 		B0CAE9D523F5B2770054AF88 /* card.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = card.storyboard; path = views/card.storyboard; sourceTree = "<group>"; };
 		B0D2A60D23AA8EDF005C40A3 /* trans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trans.c; sourceTree = "<group>"; };
 		B0D5E495237DD25200CBC793 /* HistoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				B0D5E4A4237DD35400CBC793 /* programming.c */,
 				B09F78C023996E60009F389A /* revereseword.c */,
 				6D8BAA3023ADA11000616B7D /* control.h */,
+				B09E479224097BE900F0A30F /* card.c */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -255,8 +258,8 @@
 				B0EB28BF23A94AB600EAE64D /* transcontroller.h */,
 				B0F339DA23CF784D00D50842 /* golfcontroller.m */,
 				B0F339D923CF781E00D50842 /* golfcontroller.h */,
-				B0CAE9D223F5B20E0054AF88 /* cardscontroller.m */,
-				B0CAE9D423F5B2220054AF88 /* cardscontroller.h */,
+				B0CAE9D223F5B20E0054AF88 /* CardController.m */,
+				B0CAE9D423F5B2220054AF88 /* CardController.h */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -502,11 +505,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CAE9D323F5B20E0054AF88 /* cardscontroller.m in Sources */,
+				B0CAE9D323F5B20E0054AF88 /* CardController.m in Sources */,
 				B0D2A60E23AA8EDF005C40A3 /* trans.c in Sources */,
 				B0D5E4AB237DD35400CBC793 /* calc.c in Sources */,
 				B0D5E4AA237DD35400CBC793 /* programming.c in Sources */,
 				B0A7DA99237089F300244149 /* AppDelegate.m in Sources */,
+				B09E479324097BE900F0A30F /* card.c in Sources */,
 				B0A7DAAA237089F600244149 /* main.m in Sources */,
 				B0A7DA9C237089F300244149 /* SceneDelegate.m in Sources */,
 				B0EB28BE23A94A9700EAE64D /* transcontoller.m in Sources */,
