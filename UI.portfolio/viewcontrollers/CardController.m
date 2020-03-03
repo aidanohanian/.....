@@ -339,7 +339,7 @@ static GAME_MODE gameMode;
 }
 
 /**
-* arrage table for new game
+// arrange table for new game
 */
 -(void)setupTable {
     playerDeckCnt.text = [NSString stringWithFormat:@"%d" , DECK_CNT/2];

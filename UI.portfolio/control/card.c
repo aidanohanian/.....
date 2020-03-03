@@ -51,7 +51,7 @@ CARD * createdeck()
             
             // add cImage  to correspond to Assets.xcassets
             memset(card[index].cImage, '\0', sizeof(card[index].cImage));
-            sprintf( card[index].cImage,"%d%c%c", (symbol + 1), cardSuffix, '\0' );
+            sprintf( card[index].cImage,"%c%d%c",  cardSuffix, (symbol + 1), '\0' );
         }
     }
     return card;

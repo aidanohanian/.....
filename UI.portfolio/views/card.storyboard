@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Cardscontroller-->
+        <!--Card Controller-->
         <scene sceneID="vwg-6c-LCE">
             <objects>
-                <viewController id="Ozf-Fe-rJ8" customClass="cardscontroller" customModule="UI_portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ozf-Fe-rJ8" customClass="CardController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="idC-YO-f66">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,42 +39,92 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yF5-Mk-VSF">
-                                <rect key="frame" x="288" y="53" width="113" height="174"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NGt-b0-f3N">
-                                <rect key="frame" x="151" y="110" width="113" height="174"/>
+                                <rect key="frame" x="139" y="112" width="113" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Moo-kE-bFV">
-                                <rect key="frame" x="8" y="167" width="135" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Give Cards to AI">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2MJ-es-sR7">
-                                <rect key="frame" x="288" y="607" width="113" height="174"/>
+                                <rect key="frame" x="260" y="595" width="113" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6yq-3U-5SK">
-                                <rect key="frame" x="151" y="676" width="113" height="174"/>
+                                <rect key="frame" x="139" y="665" width="113" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5NG-07-0tT">
-                                <rect key="frame" x="67" y="377" width="113" height="174"/>
+                                <rect key="frame" x="75" y="377" width="113" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d12.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NHC-4n-rfj">
                                 <rect key="frame" x="234" y="377" width="113" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d3" translatesAutoresizingMaskIntoConstraints="NO" id="jRb-tM-B5V">
+                                <rect key="frame" x="288" y="645" width="113" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6EN-YQ-u25">
+                                <rect key="frame" x="260" y="44" width="113" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gfM-Sr-Lkp">
+                                <rect key="frame" x="288" y="99" width="113" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVn-Hi-EsO">
+                                <rect key="frame" x="335" y="827" width="26" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqP-2g-yfy">
+                                <rect key="frame" x="331" y="273" width="26" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJy-MY-uO8">
+                                <rect key="frame" x="181" y="76" width="25" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxd-E2-rsi">
+                                <rect key="frame" x="181" y="634" width="25" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Moo-kE-bFV">
+                                <rect key="frame" x="10" y="44" width="135" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Give Cards to AI">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.37000997499081617" green="0.78039215689999997" blue="0.42554014248109701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qxy-QM-fOq"/>
                     </view>
+                    <connections>
+                        <outlet property="computerDeck" destination="NGt-b0-f3N" id="Ccd-Od-CwA"/>
+                        <outlet property="computerDeckCnt" destination="bJy-MY-uO8" id="s29-Sd-pPg"/>
+                        <outlet property="computerDeckWinsCnt" destination="jqP-2g-yfy" id="7IU-OC-Gao"/>
+                        <outlet property="computerWarPlay" destination="NHC-4n-rfj" id="i7b-gj-77H"/>
+                        <outlet property="computerWins1" destination="gfM-Sr-Lkp" id="eIT-q7-59V"/>
+                        <outlet property="computerWins2" destination="6EN-YQ-u25" id="bbi-7O-gWA"/>
+                        <outlet property="playerDeck" destination="6yq-3U-5SK" id="hPC-Yi-IiA"/>
+                        <outlet property="playerDeckCnt" destination="hxd-E2-rsi" id="9OO-ci-UVJ"/>
+                        <outlet property="playerDeckWinsCnt" destination="kVn-Hi-EsO" id="aqc-kf-vIf"/>
+                        <outlet property="playerWarPlay" destination="5NG-07-0tT" id="XxF-rw-SSG"/>
+                        <outlet property="playerWins1" destination="jRb-tM-B5V" id="SBW-jj-eRe"/>
+                        <outlet property="playerWins2" destination="2MJ-es-sR7" id="1lB-ZT-ow1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJP-Eg-MDj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -85,8 +135,10 @@
         <image name="c10.jpg" width="188" height="268"/>
         <image name="c6.jpg" width="189" height="267"/>
         <image name="d12.jpg" width="189" height="267"/>
+        <image name="d3" width="181" height="279"/>
         <image name="h11.jpg" width="189" height="266"/>
-        <image name="h2.jpg" width="187" height="270"/>
+        <image name="s10.jpg" width="188" height="267"/>
         <image name="s11.jpg" width="189" height="267"/>
+        <image name="s3.jpg" width="188" height="267"/>
     </resources>
 </document>
