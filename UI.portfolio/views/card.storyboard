@@ -108,7 +108,8 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.37000997499081617" green="0.78039215689999997" blue="0.42554014248109701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.87058823529999996" green="0.24984854124976735" blue="0.21147181809629786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qxy-QM-fOq"/>
                     </view>
                     <connections>
